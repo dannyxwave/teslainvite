@@ -19,6 +19,7 @@
   "copy": "Link kopieren",
   "copied": "Kopiert!",
   "fineprint": "Der Link muss bei der Bestellung verwendet werden. Er kann nicht nachträglich hinzugefügt werden.",
+  "codeLabel": "Empfehlungscode",
 
   "stepsHeading": "So funktioniert es",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Häufige Fragen",
   "faq": [
+    { "q": "Wie lautet der Tesla Empfehlungscode?", "a": "Der Empfehlungscode lautet <strong>{code}</strong>. Er steckt bereits im Empfehlungslink, du musst ihn also nicht selbst eingeben. Öffne den Link, konfiguriere dein Model 3 oder Model Y und schließe die Bestellung dort ab." },
     { "q": "Was bekomme ich, wenn ich den Empfehlungslink nutze?", "a": "Wenn du einen neuen Tesla Model 3 oder Model Y über den Empfehlungslink bestellst, erhältst du 1.000 km kostenloses Supercharging. Die Kilometer werden nach der Auslieferung automatisch deinem Tesla-Konto gutgeschrieben." },
     { "q": "Kann ich den Link nach der Bestellung noch hinzufügen?", "a": "Nein. Die Bestellung muss über den Empfehlungslink aufgegeben werden. Öffne zuerst den Link und schließe die Bestellung in derselben Sitzung ab." },
     { "q": "Kostet die Nutzung des Links etwas extra?", "a": "Nein. Der Preis des Autos bleibt gleich. Du bekommst einfach kostenloses Supercharging dazu." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Private Seite, nicht mit Tesla, Inc. verbunden.",
+  "updatedLabel": "Zuletzt aktualisiert",
   "languageLabel": "Sprache",
   "bannerText": "Diese Seite gibt es auch auf Deutsch.",
   "bannerCta": "Auf Deutsch ansehen",

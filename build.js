@@ -14,6 +14,9 @@ const { execFileSync } = require('child_process');
 const SITE = 'https://teslainvite.com';
 const REFERRAL_CODE = 'danisak989381';
 const GA_ID = 'G-9YW53C9QZJ';
+// Date the content (and Tesla's offer) was last checked. Shown on the page, in
+// structured data and in sitemap.xml. Bump it when you verify or change the text.
+const LAST_UPDATED = '2026-11-22';
 // First entry is the default language (served at "/" and used as x-default).
 const LANG_ORDER = ['en', 'no', 'sv', 'da', 'de', 'fr', 'es', 'it', 'nl'];
 
@@ -26,6 +29,13 @@ const defaultLocale = locales[0];
 const esc = (s) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const stripTags = (s) => String(s).replace(/<[^>]*>/g, '');
+// Locale texts may contain {code}; replace it with the referral code.
+const fill = (s) => String(s).replace(/\{code\}/g, REFERRAL_CODE);
+// Intl locale for date formatting ("no" → Norwegian Bokmål).
+const dateLocale = (l) => (l.lang === 'no' ? 'nb' : l.lang);
+const formatDate = (l) =>
+  new Intl.DateTimeFormat(dateLocale(l), { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
+    .format(new Date(`${LAST_UPDATED}T00:00:00Z`));
 // Empty teslaLocale → link without country, Tesla picks the visitor's region.
 const teslaUrl = (l) =>
   `https://www.tesla.com/${l.teslaLocale ? `${l.teslaLocale}/` : ''}referral/${REFERRAL_CODE}`;
@@ -85,14 +95,35 @@ function aboutSection(l) {
 }
 
 function page(l) {
-  const faqSchema = {
+  const pageUrl = `${SITE}${l.path}`;
+  const schema = {
     '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: l.faq.map((f) => ({
-      '@type': 'Question',
-      name: stripTags(f.q),
-      acceptedAnswer: { '@type': 'Answer', text: stripTags(f.a) },
-    })),
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE}/#website`,
+        url: `${SITE}/`,
+        name: 'teslainvite.com',
+        inLanguage: locales.map((o) => o.hreflang),
+      },
+      {
+        '@type': 'FAQPage',
+        '@id': `${pageUrl}#webpage`,
+        url: pageUrl,
+        name: l.title,
+        description: l.description,
+        inLanguage: l.hreflang,
+        isPartOf: { '@id': `${SITE}/#website` },
+        primaryImageOfPage: ogImage(l),
+        dateModified: LAST_UPDATED,
+        about: { '@type': 'Brand', name: 'Tesla' },
+        mainEntity: l.faq.map((f) => ({
+          '@type': 'Question',
+          name: stripTags(f.q),
+          acceptedAnswer: { '@type': 'Answer', text: stripTags(fill(f.a)) },
+        })),
+      },
+    ],
   };
 
   // Data for the language-suggestion banner in main.js.
@@ -159,6 +190,8 @@ ${locales
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -166,7 +199,7 @@ ${locales
   <link rel="stylesheet" href="/main.css">
 
   <script type="application/ld+json">
-${JSON.stringify(faqSchema, null, 2)}
+${JSON.stringify(schema, null, 2)}
   </script>
   <script type="application/json" id="lang-data">${JSON.stringify(langData)}</script>
 </head>
@@ -184,6 +217,7 @@ ${JSON.stringify(faqSchema, null, 2)}
             ${l.copy}
           </button>
         </div>
+        <p class="referral-code">${l.codeLabel}: <code>${REFERRAL_CODE}</code></p>
         <p class="fineprint">${l.fineprint}</p>
       </div>
     </section>
@@ -210,7 +244,7 @@ ${l.faq
   .map(
     (f) => `        <details>
           <summary>${f.q}</summary>
-          <p>${f.a}</p>
+          <p>${fill(f.a)}</p>
         </details>`,
   )
   .join('\n')}
@@ -225,6 +259,7 @@ ${l.faq
   <footer>
     <nav class="lang-switcher" aria-label="${esc(l.languageLabel)}">${langSwitcher}</nav>
     <p>${l.footerDisclaimer}</p>
+    <p>${l.updatedLabel}: <time datetime="${LAST_UPDATED}">${formatDate(l)}</time></p>
     <p>&copy; <span id="current-year"></span> xCode</p>
   </footer>
 
@@ -238,18 +273,47 @@ ${l.faq
 }
 
 function sitemap() {
-  const today = new Date().toISOString().slice(0, 10);
   const links = locales
     .map((o) => `    <xhtml:link rel="alternate" hreflang="${o.hreflang}" href="${SITE}${o.path}"/>`)
     .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE}${defaultLocale.path}"/>`)
     .join('\n');
   const urls = locales
-    .map((l) => `  <url>\n    <loc>${SITE}${l.path}</loc>\n    <lastmod>${today}</lastmod>\n${links}\n  </url>`)
+    .map((l) => `  <url>\n    <loc>${SITE}${l.path}</loc>\n    <lastmod>${LAST_UPDATED}</lastmod>\n${links}\n  </url>`)
     .join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls}
 </urlset>
+`;
+}
+
+// Real 404 page. Without it, Cloudflare Pages answers every unknown URL with
+// the front page and status 200 ("soft 404"), which search engines dislike.
+function notFoundPage() {
+  const links = locales
+    .map((o) => `<a href="${o.path}" hreflang="${o.hreflang}" lang="${o.lang}">${o.name}</a>`)
+    .join(' · ');
+  return `<!DOCTYPE html>
+<!-- Generated by build.js. Do not edit directly. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page not found | teslainvite.com</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+  <main>
+    <section class="section">
+      <h1>404</h1>
+      <p>This page does not exist. <a href="/">Go to the front page</a>.</p>
+      <nav class="lang-switcher" aria-label="Language">${links}</nav>
+    </section>
+  </main>
+</body>
+</html>
 `;
 }
 
@@ -288,5 +352,7 @@ for (const l of locales) {
 }
 fs.writeFileSync(path.join(root, 'sitemap.xml'), sitemap());
 console.log('wrote sitemap.xml');
+fs.writeFileSync(path.join(root, '404.html'), notFoundPage());
+console.log('wrote 404.html');
 
 if (process.argv.includes('--og')) renderOgImages();

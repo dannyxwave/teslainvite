@@ -19,6 +19,7 @@
   "copy": "Kopiera länk",
   "copied": "Kopierad!",
   "fineprint": "Länken måste användas när du beställer. Den kan inte läggas till i efterhand.",
+  "codeLabel": "Rabattkod",
 
   "stepsHeading": "Så gör du",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Vanliga frågor",
   "faq": [
+    { "q": "Vilken är Teslas rabattkod?", "a": "Koden är <strong>{code}</strong>. Den finns redan i rekommendationslänken, så du behöver inte skriva in den själv. Öppna länken, konfigurera din Model 3 eller Model Y och slutför beställningen där." },
     { "q": "Vad får jag genom att använda rekommendationslänken?", "a": "När du beställer en ny Tesla Model 3 eller Model Y via rekommendationslänken får du 1 000 km gratis Supercharging. Kilometrarna läggs automatiskt till på ditt Tesla-konto efter leverans." },
     { "q": "Kan jag lägga till länken efter att jag har beställt?", "a": "Nej. Beställningen måste göras via rekommendationslänken. Öppna länken först och slutför beställningen i samma session." },
     { "q": "Kostar det något extra att använda länken?", "a": "Nej. Priset på bilen är detsamma. Du får bara gratis Supercharging utöver det." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Privat sida, inte ansluten till Tesla, Inc.",
+  "updatedLabel": "Senast uppdaterad",
   "languageLabel": "Språk",
   "bannerText": "Den här sidan finns även på svenska.",
   "bannerCta": "Visa på svenska",

@@ -19,6 +19,7 @@
   "copy": "Copier le lien",
   "copied": "Copié !",
   "fineprint": "Le lien doit être utilisé au moment de la commande. Il ne peut pas être ajouté après coup.",
+  "codeLabel": "Code parrainage",
 
   "stepsHeading": "Comment ça marche",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Questions fréquentes",
   "faq": [
+    { "q": "Quel est le code parrainage Tesla ?", "a": "Le code parrainage est <strong>{code}</strong>. Il est déjà intégré au lien de parrainage, vous n'avez donc pas besoin de le saisir. Ouvrez le lien, configurez votre Model 3 ou Model Y et finalisez la commande." },
     { "q": "Qu'est-ce que j'obtiens avec le lien de parrainage ?", "a": "En commandant une Tesla Model 3 ou Model Y neuve via le lien de parrainage, vous obtenez 1 000 km de Supercharge gratuits. Les kilomètres sont ajoutés automatiquement à votre compte Tesla après la livraison." },
     { "q": "Puis-je ajouter le lien après avoir commandé ?", "a": "Non. La commande doit être passée via le lien de parrainage. Ouvrez d'abord le lien et finalisez la commande dans la même session." },
     { "q": "L'utilisation du lien coûte-t-elle quelque chose ?", "a": "Non. Le prix de la voiture reste le même. Vous recevez simplement de la Supercharge gratuite en plus." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Site privé, non affilié à Tesla, Inc.",
+  "updatedLabel": "Dernière mise à jour",
   "languageLabel": "Langue",
   "bannerText": "Cette page existe aussi en français.",
   "bannerCta": "Voir en français",

@@ -19,6 +19,7 @@
   "copy": "Copia link",
   "copied": "Copiato!",
   "fineprint": "Il link va usato al momento dell'ordine. Non può essere aggiunto in seguito.",
+  "codeLabel": "Codice referral",
 
   "stepsHeading": "Come funziona",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Domande frequenti",
   "faq": [
+    { "q": "Qual è il codice referral Tesla?", "a": "Il codice referral è <strong>{code}</strong>. È già incluso nel link referral, quindi non devi inserirlo a mano. Apri il link, configura la tua Model 3 o Model Y e completa l'ordine." },
     { "q": "Cosa ottengo usando il link referral?", "a": "Ordinando una nuova Tesla Model 3 o Model Y tramite il link referral, ricevi 1.000 km di Supercharging gratuiti. I chilometri vengono aggiunti automaticamente al tuo account Tesla dopo la consegna." },
     { "q": "Posso aggiungere il link dopo aver ordinato?", "a": "No. L'ordine deve essere effettuato tramite il link referral. Apri prima il link e completa l'ordine nella stessa sessione." },
     { "q": "Usare il link costa qualcosa in più?", "a": "No. Il prezzo dell'auto resta lo stesso. Ricevi semplicemente Supercharging gratuito in aggiunta." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Sito privato, non affiliato a Tesla, Inc.",
+  "updatedLabel": "Ultimo aggiornamento",
   "languageLabel": "Lingua",
   "bannerText": "Questa pagina è disponibile anche in italiano.",
   "bannerCta": "Vedi in italiano",

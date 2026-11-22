@@ -332,3 +332,24 @@ Language banner
     justify-content: center;
   }
 }
+
+/***************
+Referral code
+***************/
+.referral-code {
+  margin: 20px 0 0;
+  font-size: 0.95rem;
+}
+
+.referral-code code {
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.15);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 600;
+  user-select: all;
+}
+
+.referral-code + .fineprint {
+  margin-top: 8px;
+}

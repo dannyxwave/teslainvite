@@ -19,6 +19,7 @@
   "copy": "Copiar enlace",
   "copied": "¡Copiado!",
   "fineprint": "El enlace debe usarse al hacer el pedido. No se puede añadir después.",
+  "codeLabel": "Código de referido",
 
   "stepsHeading": "Cómo funciona",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Preguntas frecuentes",
   "faq": [
+    { "q": "¿Cuál es el código de referido de Tesla?", "a": "El código de referido es <strong>{code}</strong>. Ya está incluido en el enlace de referido, así que no tienes que escribirlo. Abre el enlace, configura tu Model 3 o Model Y y completa el pedido allí." },
     { "q": "¿Qué consigo al usar el enlace de referido?", "a": "Al pedir un Tesla Model 3 o Model Y nuevo a través del enlace de referido, consigues 1.000 km de Supercarga gratis. Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega." },
     { "q": "¿Puedo añadir el enlace después de hacer el pedido?", "a": "No. El pedido debe hacerse a través del enlace de referido. Abre primero el enlace y completa el pedido en la misma sesión." },
     { "q": "¿Usar el enlace cuesta algo extra?", "a": "No. El precio del coche es el mismo. Simplemente recibes Supercarga gratis además." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Página privada, no afiliada a Tesla, Inc.",
+  "updatedLabel": "Última actualización",
   "languageLabel": "Idioma",
   "bannerText": "Esta página también está disponible en español.",
   "bannerCta": "Ver en español",

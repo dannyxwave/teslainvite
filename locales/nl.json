@@ -19,6 +19,7 @@
   "copy": "Link kopiëren",
   "copied": "Gekopieerd!",
   "fineprint": "De link moet worden gebruikt wanneer je bestelt. Hij kan achteraf niet worden toegevoegd.",
+  "codeLabel": "Referral code",
 
   "stepsHeading": "Zo werkt het",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Veelgestelde vragen",
   "faq": [
+    { "q": "Wat is de Tesla referral code?", "a": "De referral code is <strong>{code}</strong>. Hij zit al in de referral link, dus je hoeft hem niet zelf in te voeren. Open de link, configureer je Model 3 of Model Y en rond de bestelling daar af." },
     { "q": "Wat krijg ik als ik de referral link gebruik?", "a": "Als je een nieuwe Tesla Model 3 of Model Y bestelt via de referral link, krijg je 1.000 km gratis Superchargen. De kilometers worden na de levering automatisch aan je Tesla-account toegevoegd." },
     { "q": "Kan ik de link toevoegen nadat ik heb besteld?", "a": "Nee. De bestelling moet via de referral link worden geplaatst. Open eerst de link en rond de bestelling af in dezelfde sessie." },
     { "q": "Kost het gebruik van de link iets extra?", "a": "Nee. De prijs van de auto blijft hetzelfde. Je krijgt er gewoon gratis Superchargen bij." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Privésite, niet verbonden aan Tesla, Inc.",
+  "updatedLabel": "Laatst bijgewerkt",
   "languageLabel": "Taal",
   "bannerText": "Deze pagina is ook beschikbaar in het Nederlands.",
   "bannerCta": "Bekijk in het Nederlands",

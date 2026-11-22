@@ -19,6 +19,7 @@
   "copy": "Kopiér link",
   "copied": "Kopieret!",
   "fineprint": "Linket skal bruges, når du bestiller. Det kan ikke tilføjes bagefter.",
+  "codeLabel": "Rabatkode",
 
   "stepsHeading": "Sådan gør du",
   "steps": [
@@ -31,6 +32,7 @@
 
   "faqHeading": "Ofte stillede spørgsmål",
   "faq": [
+    { "q": "Hvad er Teslas rabatkode?", "a": "Koden er <strong>{code}</strong>. Den ligger allerede i henvisningslinket, så du behøver ikke skrive den ind selv. Åbn linket, konfigurer din Model 3 eller Model Y, og gennemfør bestillingen der." },
     { "q": "Hvad får jeg ved at bruge henvisningslinket?", "a": "Når du bestiller en ny Tesla Model 3 eller Model Y via henvisningslinket, får du 1.000 km gratis Supercharging. Kilometerne lægges automatisk på din Tesla-konto efter levering." },
     { "q": "Kan jeg tilføje linket, efter jeg har bestilt?", "a": "Nej. Bestillingen skal afgives via henvisningslinket. Åbn linket først, og gennemfør bestillingen i samme session." },
     { "q": "Koster det noget ekstra at bruge linket?", "a": "Nej. Prisen på bilen er den samme. Du får blot gratis Supercharging oveni." },
@@ -39,6 +41,7 @@
   ],
 
   "footerDisclaimer": "Privat side, ikke tilknyttet Tesla, Inc.",
+  "updatedLabel": "Sidst opdateret",
   "languageLabel": "Sprog",
   "bannerText": "Denne side findes også på dansk.",
   "bannerCta": "Vis på dansk",

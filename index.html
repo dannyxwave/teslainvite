@@ -67,6 +67,8 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -76,55 +78,98 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "What do I get by using the referral link?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you order a new Tesla Model 3 or Model Y through the referral link, you get 1,000 km of free Supercharging. The kilometres are added to your Tesla account automatically after delivery."
-      }
+      "@type": "WebSite",
+      "@id": "https://teslainvite.com/#website",
+      "url": "https://teslainvite.com/",
+      "name": "teslainvite.com",
+      "inLanguage": [
+        "en",
+        "no",
+        "sv",
+        "da",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl"
+      ]
     },
     {
-      "@type": "Question",
-      "name": "Can I add the referral link after I have ordered?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The order has to be placed through the referral link. Open the link first and complete the order in the same session."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does using the referral link cost anything extra?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The price of the car is the same. You simply get free Supercharging on top."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the referral link work for Model S, Model X or used cars?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The benefit currently applies only to new Model 3 and Model Y ordered from Tesla."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the referral link work in my country?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The link works in the countries where Tesla's referral program is active. Choose your country on tesla.com. The benefit can vary by country, and the configurator shows it before you place the order."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this an official Tesla site?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, this is a private site made by a Tesla owner. The link itself goes to Tesla's official referral program on tesla.com, and Tesla's terms apply. Tesla may change the benefits at any time."
-      }
+      "@type": "FAQPage",
+      "@id": "https://teslainvite.com/#webpage",
+      "url": "https://teslainvite.com/",
+      "name": "Tesla referral code: 1,000 km free Supercharging | Model 3 & Model Y",
+      "description": "Order a Tesla Model 3 or Model Y with this referral link and get 1,000 km of free Supercharging. How to use it, plus answers to common questions.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://teslainvite.com/#website"
+      },
+      "primaryImageOfPage": "https://teslainvite.com/img/og-en.png",
+      "dateModified": "2026-11-22",
+      "about": {
+        "@type": "Brand",
+        "name": "Tesla"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the Tesla referral code?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The referral code is danisak989381. It is built into the referral link, so you do not need to type it in. Open the link, configure your Model 3 or Model Y and complete the order there."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I get by using the referral link?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you order a new Tesla Model 3 or Model Y through the referral link, you get 1,000 km of free Supercharging. The kilometres are added to your Tesla account automatically after delivery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I add the referral link after I have ordered?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The order has to be placed through the referral link. Open the link first and complete the order in the same session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does using the referral link cost anything extra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The price of the car is the same. You simply get free Supercharging on top."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the referral link work for Model S, Model X or used cars?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. The benefit currently applies only to new Model 3 and Model Y ordered from Tesla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the referral link work in my country?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The link works in the countries where Tesla's referral program is active. Choose your country on tesla.com. The benefit can vary by country, and the configurator shows it before you place the order."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is this an official Tesla site?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, this is a private site made by a Tesla owner. The link itself goes to Tesla's official referral program on tesla.com, and Tesla's terms apply. Tesla may change the benefits at any time."
+          }
+        }
+      ]
     }
   ]
 }
@@ -148,6 +193,7 @@
             Copy link
           </button>
         </div>
+        <p class="referral-code">Referral code: <code>danisak989381</code></p>
         <p class="fineprint">The link has to be used when you order. It cannot be added afterwards. The benefit may vary by country.</p>
       </div>
     </section>
@@ -176,6 +222,10 @@
     <section class="section">
       <h2>Frequently asked questions</h2>
       <div class="faq">
+        <details>
+          <summary>What is the Tesla referral code?</summary>
+          <p>The referral code is <strong>danisak989381</strong>. It is built into the referral link, so you do not need to type it in. Open the link, configure your Model 3 or Model Y and complete the order there.</p>
+        </details>
         <details>
           <summary>What do I get by using the referral link?</summary>
           <p>When you order a new Tesla Model 3 or Model Y through the referral link, you get 1,000 km of free Supercharging. The kilometres are added to your Tesla account automatically after delivery.</p>
@@ -214,6 +264,7 @@
   <footer>
     <nav class="lang-switcher" aria-label="Language"><span aria-current="page">English</span> · <a href="/no/" hreflang="no" lang="no" data-lang-choice="no">Norsk</a> · <a href="/sv/" hreflang="sv" lang="sv" data-lang-choice="sv">Svenska</a> · <a href="/da/" hreflang="da" lang="da" data-lang-choice="da">Dansk</a> · <a href="/de/" hreflang="de" lang="de" data-lang-choice="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-lang-choice="fr">Français</a> · <a href="/es/" hreflang="es" lang="es" data-lang-choice="es">Español</a> · <a href="/it/" hreflang="it" lang="it" data-lang-choice="it">Italiano</a> · <a href="/nl/" hreflang="nl" lang="nl" data-lang-choice="nl">Nederlands</a></nav>
     <p>Private site, not affiliated with Tesla, Inc.</p>
+    <p>Last updated: <time datetime="2026-11-22">November 22, 2026</time></p>
     <p>&copy; <span id="current-year"></span> xCode</p>
   </footer>
 

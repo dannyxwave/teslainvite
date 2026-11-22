@@ -6,7 +6,7 @@ Static referral page in several languages, generated from one template.
 | File | What it is |
 |---|---|
 | `locales/<lang>.json` | All text for each language, plus the Tesla country code (`teslaLocale`). **Edit here.** |
-| `build.js` | Generates `index.html` (English, default) and `no/`, `sv/`, `da/`, `de/`, `fr/`, `es/`, `it/`, `nl/`, plus `sitemap.xml`. |
+| `build.js` | Generates `index.html` (English, default) and `no/`, `sv/`, `da/`, `de/`, `fr/`, `es/`, `it/`, `nl/`, plus `sitemap.xml` and `404.html`. |
 | `main.js` | Click tracking (GA), copy button, language switcher memory, language banner. |
 | `main.css` | Styling. |
 
@@ -17,6 +17,10 @@ The generated HTML files are committed, so Cloudflare Pages needs no build step.
 1. Change `locales/<lang>.json`
 2. `node build.js` (or `npm run build`)
 3. Commit and push
+
+When you have checked that Tesla's offer is still correct, or changed the text, set `LAST_UPDATED` in `build.js` to today's date. It is shown on the page ("Last updated"), in the structured data and in `sitemap.xml`.
+
+Write `{code}` in a locale text to insert the referral code.
 
 If you change `eyebrow` or `h1`, also update the share images: `node build.js --og` (needs Google Chrome).
 

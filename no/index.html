@@ -49,6 +49,8 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -58,47 +60,90 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Hva får jeg ved å bruke vervelenken?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Når du bestiller en ny Tesla Model 3 eller Model Y via vervelenken, får du 1 000 km gratis Supercharging. Kilometerne legges automatisk til Tesla-kontoen din etter levering."
-      }
+      "@type": "WebSite",
+      "@id": "https://teslainvite.com/#website",
+      "url": "https://teslainvite.com/",
+      "name": "teslainvite.com",
+      "inLanguage": [
+        "en",
+        "no",
+        "sv",
+        "da",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl"
+      ]
     },
     {
-      "@type": "Question",
-      "name": "Kan jeg legge til vervelenken etter at jeg har bestilt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nei. Bestillingen må legges inn via vervelenken. Åpne lenken først og fullfør bestillingen i samme økt."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Koster det noe ekstra å bruke vervelenken?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nei. Prisen på bilen er den samme. Du får bare gratis Supercharging i tillegg."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Gjelder vervelenken for Model S, Model X eller brukte biler?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nei. Fordelen gjelder i dag kun for nye Model 3 og Model Y bestilt hos Tesla."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Er dette en offisiell Tesla-side?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nei, dette er en privat side laget av en Tesla-eier. Selve lenken går til Teslas offisielle vervingsprogram på tesla.com, og vilkårene der gjelder. Tesla kan endre fordelene når som helst."
-      }
+      "@type": "FAQPage",
+      "@id": "https://teslainvite.com/no/#webpage",
+      "url": "https://teslainvite.com/no/",
+      "name": "Tesla rabattkode og vervelenke: 1 000 km gratis Supercharging",
+      "description": "Bestill Tesla Model 3 eller Model Y med denne vervelenken og få 1 000 km gratis Supercharging. Slik bruker du lenken, og svar på vanlige spørsmål.",
+      "inLanguage": "no",
+      "isPartOf": {
+        "@id": "https://teslainvite.com/#website"
+      },
+      "primaryImageOfPage": "https://teslainvite.com/img/og-no.png",
+      "dateModified": "2026-11-22",
+      "about": {
+        "@type": "Brand",
+        "name": "Tesla"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Hva er Tesla-vervekoden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vervekoden er danisak989381. Koden ligger i vervelenken, så du trenger ikke skrive den inn selv. Åpne lenken, konfigurer Model 3 eller Model Y og fullfør bestillingen der."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hva får jeg ved å bruke vervelenken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Når du bestiller en ny Tesla Model 3 eller Model Y via vervelenken, får du 1 000 km gratis Supercharging. Kilometerne legges automatisk til Tesla-kontoen din etter levering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan jeg legge til vervelenken etter at jeg har bestilt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. Bestillingen må legges inn via vervelenken. Åpne lenken først og fullfør bestillingen i samme økt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Koster det noe ekstra å bruke vervelenken?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. Prisen på bilen er den samme. Du får bare gratis Supercharging i tillegg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gjelder vervelenken for Model S, Model X eller brukte biler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei. Fordelen gjelder i dag kun for nye Model 3 og Model Y bestilt hos Tesla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Er dette en offisiell Tesla-side?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nei, dette er en privat side laget av en Tesla-eier. Selve lenken går til Teslas offisielle vervingsprogram på tesla.com, og vilkårene der gjelder. Tesla kan endre fordelene når som helst."
+          }
+        }
+      ]
     }
   ]
 }
@@ -122,6 +167,7 @@
             Kopier lenke
           </button>
         </div>
+        <p class="referral-code">Vervekode: <code>danisak989381</code></p>
         <p class="fineprint">Lenken må brukes når du bestiller. Den kan ikke legges til i etterkant.</p>
       </div>
     </section>
@@ -150,6 +196,10 @@
     <section class="section">
       <h2>Vanlige spørsmål</h2>
       <div class="faq">
+        <details>
+          <summary>Hva er Tesla-vervekoden?</summary>
+          <p>Vervekoden er <strong>danisak989381</strong>. Koden ligger i vervelenken, så du trenger ikke skrive den inn selv. Åpne lenken, konfigurer Model 3 eller Model Y og fullfør bestillingen der.</p>
+        </details>
         <details>
           <summary>Hva får jeg ved å bruke vervelenken?</summary>
           <p>Når du bestiller en ny Tesla Model 3 eller Model Y via vervelenken, får du 1 000 km gratis Supercharging. Kilometerne legges automatisk til Tesla-kontoen din etter levering.</p>
@@ -184,6 +234,7 @@
   <footer>
     <nav class="lang-switcher" aria-label="Språk"><a href="/" hreflang="en" lang="en" data-lang-choice="en">English</a> · <span aria-current="page">Norsk</span> · <a href="/sv/" hreflang="sv" lang="sv" data-lang-choice="sv">Svenska</a> · <a href="/da/" hreflang="da" lang="da" data-lang-choice="da">Dansk</a> · <a href="/de/" hreflang="de" lang="de" data-lang-choice="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-lang-choice="fr">Français</a> · <a href="/es/" hreflang="es" lang="es" data-lang-choice="es">Español</a> · <a href="/it/" hreflang="it" lang="it" data-lang-choice="it">Italiano</a> · <a href="/nl/" hreflang="nl" lang="nl" data-lang-choice="nl">Nederlands</a></nav>
     <p>Privat side, ikke tilknyttet Tesla, Inc.</p>
+    <p>Sist oppdatert: <time datetime="2026-11-22">22. november 2026</time></p>
     <p>&copy; <span id="current-year"></span> xCode</p>
   </footer>
 

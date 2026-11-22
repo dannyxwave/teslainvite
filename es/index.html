@@ -49,6 +49,8 @@
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-chrome-192x192.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -58,47 +60,90 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "¿Qué consigo al usar el enlace de referido?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Al pedir un Tesla Model 3 o Model Y nuevo a través del enlace de referido, consigues 1.000 km de Supercarga gratis. Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega."
-      }
+      "@type": "WebSite",
+      "@id": "https://teslainvite.com/#website",
+      "url": "https://teslainvite.com/",
+      "name": "teslainvite.com",
+      "inLanguage": [
+        "en",
+        "no",
+        "sv",
+        "da",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "nl"
+      ]
     },
     {
-      "@type": "Question",
-      "name": "¿Puedo añadir el enlace después de hacer el pedido?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. El pedido debe hacerse a través del enlace de referido. Abre primero el enlace y completa el pedido en la misma sesión."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Usar el enlace cuesta algo extra?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. El precio del coche es el mismo. Simplemente recibes Supercarga gratis además."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Sirve el enlace para Model S, Model X o coches usados?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. La ventaja se aplica actualmente solo a Model 3 y Model Y nuevos pedidos a Tesla."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Es esta una página oficial de Tesla?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No, es una página privada creada por un propietario de Tesla. El enlace lleva al programa de referidos oficial en tesla.com, y se aplican las condiciones de Tesla. Tesla puede cambiar las ventajas en cualquier momento."
-      }
+      "@type": "FAQPage",
+      "@id": "https://teslainvite.com/es/#webpage",
+      "url": "https://teslainvite.com/es/",
+      "name": "Código de referido Tesla: 1.000 km de Supercarga gratis | Model 3 y Model Y",
+      "description": "Pide un Tesla Model 3 o Model Y con este enlace de referido y consigue 1.000 km de Supercarga gratis. Cómo usarlo y respuestas a las preguntas frecuentes.",
+      "inLanguage": "es",
+      "isPartOf": {
+        "@id": "https://teslainvite.com/#website"
+      },
+      "primaryImageOfPage": "https://teslainvite.com/img/og-es.png",
+      "dateModified": "2026-11-22",
+      "about": {
+        "@type": "Brand",
+        "name": "Tesla"
+      },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es el código de referido de Tesla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El código de referido es danisak989381. Ya está incluido en el enlace de referido, así que no tienes que escribirlo. Abre el enlace, configura tu Model 3 o Model Y y completa el pedido allí."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué consigo al usar el enlace de referido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al pedir un Tesla Model 3 o Model Y nuevo a través del enlace de referido, consigues 1.000 km de Supercarga gratis. Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo añadir el enlace después de hacer el pedido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El pedido debe hacerse a través del enlace de referido. Abre primero el enlace y completa el pedido en la misma sesión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Usar el enlace cuesta algo extra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El precio del coche es el mismo. Simplemente recibes Supercarga gratis además."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Sirve el enlace para Model S, Model X o coches usados?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. La ventaja se aplica actualmente solo a Model 3 y Model Y nuevos pedidos a Tesla."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es esta una página oficial de Tesla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, es una página privada creada por un propietario de Tesla. El enlace lleva al programa de referidos oficial en tesla.com, y se aplican las condiciones de Tesla. Tesla puede cambiar las ventajas en cualquier momento."
+          }
+        }
+      ]
     }
   ]
 }
@@ -122,6 +167,7 @@
             Copiar enlace
           </button>
         </div>
+        <p class="referral-code">Código de referido: <code>danisak989381</code></p>
         <p class="fineprint">El enlace debe usarse al hacer el pedido. No se puede añadir después.</p>
       </div>
     </section>
@@ -150,6 +196,10 @@
     <section class="section">
       <h2>Preguntas frecuentes</h2>
       <div class="faq">
+        <details>
+          <summary>¿Cuál es el código de referido de Tesla?</summary>
+          <p>El código de referido es <strong>danisak989381</strong>. Ya está incluido en el enlace de referido, así que no tienes que escribirlo. Abre el enlace, configura tu Model 3 o Model Y y completa el pedido allí.</p>
+        </details>
         <details>
           <summary>¿Qué consigo al usar el enlace de referido?</summary>
           <p>Al pedir un Tesla Model 3 o Model Y nuevo a través del enlace de referido, consigues 1.000 km de Supercarga gratis. Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega.</p>
@@ -184,6 +234,7 @@
   <footer>
     <nav class="lang-switcher" aria-label="Idioma"><a href="/" hreflang="en" lang="en" data-lang-choice="en">English</a> · <a href="/no/" hreflang="no" lang="no" data-lang-choice="no">Norsk</a> · <a href="/sv/" hreflang="sv" lang="sv" data-lang-choice="sv">Svenska</a> · <a href="/da/" hreflang="da" lang="da" data-lang-choice="da">Dansk</a> · <a href="/de/" hreflang="de" lang="de" data-lang-choice="de">Deutsch</a> · <a href="/fr/" hreflang="fr" lang="fr" data-lang-choice="fr">Français</a> · <span aria-current="page">Español</span> · <a href="/it/" hreflang="it" lang="it" data-lang-choice="it">Italiano</a> · <a href="/nl/" hreflang="nl" lang="nl" data-lang-choice="nl">Nederlands</a></nav>
     <p>Página privada, no afiliada a Tesla, Inc.</p>
+    <p>Última actualización: <time datetime="2026-11-22">22 de noviembre de 2026</time></p>
     <p>&copy; <span id="current-year"></span> xCode</p>
   </footer>
 
