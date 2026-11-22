@@ -1,0 +1,68 @@
+{
+  "lang": "no",
+  "hreflang": "no",
+  "name": "Norsk",
+  "path": "/no/",
+  "ogLocale": "nb_NO",
+  "teslaLocale": "no_no",
+  "browserLangs": [
+    "no",
+    "nb",
+    "nn"
+  ],
+  "title": "Tesla rabattkode og vervelenke: 1 000 km gratis Supercharging",
+  "description": "Bestill Tesla Model 3 eller Model Y med denne vervelenken og få 1 000 km gratis Supercharging. Slik bruker du lenken, og svar på vanlige spørsmål.",
+  "ogTitle": "1 000 km gratis Supercharging på din nye Tesla",
+  "ogDescription": "Bestill Model 3 eller Model Y med vervelenken og få 1 000 km gratis lading.",
+  "eyebrow": "Tesla vervelenke · Model 3 og Model Y",
+  "h1": "1 000 km<br/>gratis Supercharging",
+  "lead": "Bestill din nye Tesla Model 3 eller Model Y med vervelenken min, så får du <strong>1 000 km gratis lading</strong>. Samme pris på bilen, ingen ekstra kostnad.",
+  "cta": "Bestill med vervelenken",
+  "copy": "Kopier lenke",
+  "copied": "Kopiert!",
+  "fineprint": "Lenken må brukes når du bestiller. Den kan ikke legges til i etterkant.",
+  "stepsHeading": "Slik gjør du det",
+  "steps": [
+    {
+      "title": "Åpne vervelenken",
+      "text": "Trykk på knappen over. Du kommer rett til Teslas offisielle side på tesla.com."
+    },
+    {
+      "title": "Velg Model 3 eller Model Y",
+      "text": "Konfigurer bilen som vanlig og fullfør bestillingen i samme økt."
+    },
+    {
+      "title": "Få 1 000 km gratis lading",
+      "text": "Kilometerne legges automatisk til Tesla-kontoen din etter levering."
+    }
+  ],
+  "about": null,
+  "faqHeading": "Vanlige spørsmål",
+  "faq": [
+    {
+      "q": "Hva får jeg ved å bruke vervelenken?",
+      "a": "Når du bestiller en ny Tesla Model 3 eller Model Y via vervelenken, får du 1 000 km gratis Supercharging. Kilometerne legges automatisk til Tesla-kontoen din etter levering."
+    },
+    {
+      "q": "Kan jeg legge til vervelenken etter at jeg har bestilt?",
+      "a": "Nei. Bestillingen må legges inn via vervelenken. Åpne lenken først og fullfør bestillingen i samme økt."
+    },
+    {
+      "q": "Koster det noe ekstra å bruke vervelenken?",
+      "a": "Nei. Prisen på bilen er den samme. Du får bare gratis Supercharging i tillegg."
+    },
+    {
+      "q": "Gjelder vervelenken for Model S, Model X eller brukte biler?",
+      "a": "Nei. Fordelen gjelder i dag kun for nye Model 3 og Model Y bestilt hos Tesla."
+    },
+    {
+      "q": "Er dette en offisiell Tesla-side?",
+      "a": "Nei, dette er en privat side laget av en Tesla-eier. Selve lenken går til Teslas offisielle vervingsprogram på tesla.com, og vilkårene der gjelder. Tesla kan endre fordelene når som helst."
+    }
+  ],
+  "footerDisclaimer": "Privat side, ikke tilknyttet Tesla, Inc.",
+  "languageLabel": "Språk",
+  "bannerText": "Denne siden finnes også på norsk.",
+  "bannerCta": "Vis på norsk",
+  "bannerClose": "Lukk"
+}

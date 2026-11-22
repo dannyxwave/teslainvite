@@ -1,0 +1,46 @@
+{
+  "lang": "nl",
+  "hreflang": "nl",
+  "name": "Nederlands",
+  "path": "/nl/",
+  "ogLocale": "nl_NL",
+  "teslaLocale": "nl_nl",
+  "browserLangs": ["nl"],
+
+  "title": "Tesla referral code: 1.000 km gratis Superchargen | Model 3 en Model Y",
+  "description": "Bestel een Tesla Model 3 of Model Y met deze referral link en krijg 1.000 km gratis Superchargen. Zo werkt het, plus antwoorden op veelgestelde vragen.",
+  "ogTitle": "1.000 km gratis Superchargen bij je nieuwe Tesla",
+  "ogDescription": "Bestel een Model 3 of Model Y met de referral link en krijg 1.000 km gratis laden.",
+
+  "eyebrow": "Tesla referral link · Model 3 en Model Y",
+  "h1": "1.000 km<br/>gratis Superchargen",
+  "lead": "Bestel je nieuwe Tesla Model 3 of Model Y met mijn referral link en krijg <strong>1.000 km gratis laden</strong>. Zelfde prijs voor de auto, geen extra kosten.",
+  "cta": "Bestel met referral",
+  "copy": "Link kopiëren",
+  "copied": "Gekopieerd!",
+  "fineprint": "De link moet worden gebruikt wanneer je bestelt. Hij kan achteraf niet worden toegevoegd.",
+
+  "stepsHeading": "Zo werkt het",
+  "steps": [
+    { "title": "Open de referral link", "text": "Tik op de knop hierboven. Je komt direct op de officiële pagina van Tesla op tesla.com." },
+    { "title": "Kies Model 3 of Model Y", "text": "Configureer de auto zoals gewoonlijk en rond de bestelling af in dezelfde sessie." },
+    { "title": "Krijg 1.000 km gratis laden", "text": "De kilometers worden na de levering automatisch aan je Tesla-account toegevoegd." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Veelgestelde vragen",
+  "faq": [
+    { "q": "Wat krijg ik als ik de referral link gebruik?", "a": "Als je een nieuwe Tesla Model 3 of Model Y bestelt via de referral link, krijg je 1.000 km gratis Superchargen. De kilometers worden na de levering automatisch aan je Tesla-account toegevoegd." },
+    { "q": "Kan ik de link toevoegen nadat ik heb besteld?", "a": "Nee. De bestelling moet via de referral link worden geplaatst. Open eerst de link en rond de bestelling af in dezelfde sessie." },
+    { "q": "Kost het gebruik van de link iets extra?", "a": "Nee. De prijs van de auto blijft hetzelfde. Je krijgt er gewoon gratis Superchargen bij." },
+    { "q": "Geldt de link voor Model S, Model X of tweedehands auto's?", "a": "Nee. Het voordeel geldt momenteel alleen voor nieuwe Model 3 en Model Y die bij Tesla worden besteld." },
+    { "q": "Is dit een officiële Tesla-website?", "a": "Nee, dit is een privésite van een Tesla-eigenaar. De link zelf gaat naar het officiële referral-programma op tesla.com, en de voorwaarden van Tesla zijn van toepassing. Tesla kan de voordelen op elk moment wijzigen." }
+  ],
+
+  "footerDisclaimer": "Privésite, niet verbonden aan Tesla, Inc.",
+  "languageLabel": "Taal",
+  "bannerText": "Deze pagina is ook beschikbaar in het Nederlands.",
+  "bannerCta": "Bekijk in het Nederlands",
+  "bannerClose": "Sluiten"
+}

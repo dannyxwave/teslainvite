@@ -1,0 +1,46 @@
+{
+  "lang": "de",
+  "hreflang": "de",
+  "name": "Deutsch",
+  "path": "/de/",
+  "ogLocale": "de_DE",
+  "teslaLocale": "de_de",
+  "browserLangs": ["de"],
+
+  "title": "Tesla Empfehlungscode & Referral-Link: 1.000 km gratis Supercharging",
+  "description": "Bestelle ein Tesla Model 3 oder Model Y über diesen Empfehlungslink und erhalte 1.000 km kostenloses Supercharging. So funktioniert es, plus Antworten auf häufige Fragen.",
+  "ogTitle": "1.000 km gratis Supercharging für deinen neuen Tesla",
+  "ogDescription": "Bestelle ein Model 3 oder Model Y über den Empfehlungslink und erhalte 1.000 km kostenloses Laden.",
+
+  "eyebrow": "Tesla Empfehlungslink · Model 3 und Model Y",
+  "h1": "1.000 km<br/>gratis Supercharging",
+  "lead": "Bestelle deinen neuen Tesla Model 3 oder Model Y über meinen Empfehlungslink und erhalte <strong>1.000 km kostenloses Laden</strong>. Gleicher Preis für das Auto, keine Zusatzkosten.",
+  "cta": "Mit Empfehlung bestellen",
+  "copy": "Link kopieren",
+  "copied": "Kopiert!",
+  "fineprint": "Der Link muss bei der Bestellung verwendet werden. Er kann nicht nachträglich hinzugefügt werden.",
+
+  "stepsHeading": "So funktioniert es",
+  "steps": [
+    { "title": "Empfehlungslink öffnen", "text": "Tippe auf den Button oben. Du landest direkt auf der offiziellen Tesla-Seite auf tesla.com." },
+    { "title": "Model 3 oder Model Y wählen", "text": "Konfiguriere das Auto wie gewohnt und schließe die Bestellung in derselben Sitzung ab." },
+    { "title": "1.000 km gratis laden", "text": "Die Kilometer werden nach der Auslieferung automatisch deinem Tesla-Konto gutgeschrieben." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Häufige Fragen",
+  "faq": [
+    { "q": "Was bekomme ich, wenn ich den Empfehlungslink nutze?", "a": "Wenn du einen neuen Tesla Model 3 oder Model Y über den Empfehlungslink bestellst, erhältst du 1.000 km kostenloses Supercharging. Die Kilometer werden nach der Auslieferung automatisch deinem Tesla-Konto gutgeschrieben." },
+    { "q": "Kann ich den Link nach der Bestellung noch hinzufügen?", "a": "Nein. Die Bestellung muss über den Empfehlungslink aufgegeben werden. Öffne zuerst den Link und schließe die Bestellung in derselben Sitzung ab." },
+    { "q": "Kostet die Nutzung des Links etwas extra?", "a": "Nein. Der Preis des Autos bleibt gleich. Du bekommst einfach kostenloses Supercharging dazu." },
+    { "q": "Gilt der Link für Model S, Model X oder Gebrauchtwagen?", "a": "Nein. Der Vorteil gilt derzeit nur für neue Model 3 und Model Y, die bei Tesla bestellt werden." },
+    { "q": "Ist das eine offizielle Tesla-Seite?", "a": "Nein, dies ist eine private Seite eines Tesla-Besitzers. Der Link selbst führt zum offiziellen Empfehlungsprogramm auf tesla.com, und es gelten die Bedingungen von Tesla. Tesla kann die Vorteile jederzeit ändern." }
+  ],
+
+  "footerDisclaimer": "Private Seite, nicht mit Tesla, Inc. verbunden.",
+  "languageLabel": "Sprache",
+  "bannerText": "Diese Seite gibt es auch auf Deutsch.",
+  "bannerCta": "Auf Deutsch ansehen",
+  "bannerClose": "Schließen"
+}

@@ -1,0 +1,46 @@
+{
+  "lang": "es",
+  "hreflang": "es",
+  "name": "Español",
+  "path": "/es/",
+  "ogLocale": "es_ES",
+  "teslaLocale": "es_es",
+  "browserLangs": ["es"],
+
+  "title": "Código de referido Tesla: 1.000 km de Supercarga gratis | Model 3 y Model Y",
+  "description": "Pide un Tesla Model 3 o Model Y con este enlace de referido y consigue 1.000 km de Supercarga gratis. Cómo usarlo y respuestas a las preguntas frecuentes.",
+  "ogTitle": "1.000 km de Supercarga gratis en tu nuevo Tesla",
+  "ogDescription": "Pide un Model 3 o Model Y con el enlace de referido y consigue 1.000 km de carga gratis.",
+
+  "eyebrow": "Enlace de referido Tesla · Model 3 y Model Y",
+  "h1": "1.000 km<br/>de Supercarga gratis",
+  "lead": "Pide tu nuevo Tesla Model 3 o Model Y con mi enlace de referido y consigue <strong>1.000 km de carga gratis</strong>. Mismo precio para el coche, sin coste adicional.",
+  "cta": "Pedir con el referido",
+  "copy": "Copiar enlace",
+  "copied": "¡Copiado!",
+  "fineprint": "El enlace debe usarse al hacer el pedido. No se puede añadir después.",
+
+  "stepsHeading": "Cómo funciona",
+  "steps": [
+    { "title": "Abre el enlace de referido", "text": "Pulsa el botón de arriba. Irás directamente a la página oficial de Tesla en tesla.com." },
+    { "title": "Elige Model 3 o Model Y", "text": "Configura el coche como siempre y completa el pedido en la misma sesión." },
+    { "title": "Consigue 1.000 km de carga gratis", "text": "Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Preguntas frecuentes",
+  "faq": [
+    { "q": "¿Qué consigo al usar el enlace de referido?", "a": "Al pedir un Tesla Model 3 o Model Y nuevo a través del enlace de referido, consigues 1.000 km de Supercarga gratis. Los kilómetros se añaden automáticamente a tu cuenta de Tesla tras la entrega." },
+    { "q": "¿Puedo añadir el enlace después de hacer el pedido?", "a": "No. El pedido debe hacerse a través del enlace de referido. Abre primero el enlace y completa el pedido en la misma sesión." },
+    { "q": "¿Usar el enlace cuesta algo extra?", "a": "No. El precio del coche es el mismo. Simplemente recibes Supercarga gratis además." },
+    { "q": "¿Sirve el enlace para Model S, Model X o coches usados?", "a": "No. La ventaja se aplica actualmente solo a Model 3 y Model Y nuevos pedidos a Tesla." },
+    { "q": "¿Es esta una página oficial de Tesla?", "a": "No, es una página privada creada por un propietario de Tesla. El enlace lleva al programa de referidos oficial en tesla.com, y se aplican las condiciones de Tesla. Tesla puede cambiar las ventajas en cualquier momento." }
+  ],
+
+  "footerDisclaimer": "Página privada, no afiliada a Tesla, Inc.",
+  "languageLabel": "Idioma",
+  "bannerText": "Esta página también está disponible en español.",
+  "bannerCta": "Ver en español",
+  "bannerClose": "Cerrar"
+}

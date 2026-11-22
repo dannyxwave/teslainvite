@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://teslainvite.com/sitemap.xml

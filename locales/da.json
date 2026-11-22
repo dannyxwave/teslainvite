@@ -1,0 +1,46 @@
+{
+  "lang": "da",
+  "hreflang": "da",
+  "name": "Dansk",
+  "path": "/da/",
+  "ogLocale": "da_DK",
+  "teslaLocale": "da_dk",
+  "browserLangs": ["da"],
+
+  "title": "Tesla rabatkode og henvisningslink: 1.000 km gratis Supercharging",
+  "description": "Bestil Tesla Model 3 eller Model Y med dette henvisningslink og få 1.000 km gratis Supercharging. Sådan bruger du linket, og svar på almindelige spørgsmål.",
+  "ogTitle": "1.000 km gratis Supercharging på din nye Tesla",
+  "ogDescription": "Bestil Model 3 eller Model Y med henvisningslinket og få 1.000 km gratis opladning.",
+
+  "eyebrow": "Tesla henvisningslink · Model 3 og Model Y",
+  "h1": "1.000 km<br/>gratis Supercharging",
+  "lead": "Bestil din nye Tesla Model 3 eller Model Y med mit henvisningslink, så får du <strong>1.000 km gratis opladning</strong>. Samme pris på bilen, ingen ekstra omkostninger.",
+  "cta": "Bestil med linket",
+  "copy": "Kopiér link",
+  "copied": "Kopieret!",
+  "fineprint": "Linket skal bruges, når du bestiller. Det kan ikke tilføjes bagefter.",
+
+  "stepsHeading": "Sådan gør du",
+  "steps": [
+    { "title": "Åbn henvisningslinket", "text": "Tryk på knappen ovenfor. Du kommer direkte til Teslas officielle side på tesla.com." },
+    { "title": "Vælg Model 3 eller Model Y", "text": "Konfigurer bilen som normalt, og gennemfør bestillingen i samme session." },
+    { "title": "Få 1.000 km gratis opladning", "text": "Kilometerne lægges automatisk på din Tesla-konto efter levering." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Ofte stillede spørgsmål",
+  "faq": [
+    { "q": "Hvad får jeg ved at bruge henvisningslinket?", "a": "Når du bestiller en ny Tesla Model 3 eller Model Y via henvisningslinket, får du 1.000 km gratis Supercharging. Kilometerne lægges automatisk på din Tesla-konto efter levering." },
+    { "q": "Kan jeg tilføje linket, efter jeg har bestilt?", "a": "Nej. Bestillingen skal afgives via henvisningslinket. Åbn linket først, og gennemfør bestillingen i samme session." },
+    { "q": "Koster det noget ekstra at bruge linket?", "a": "Nej. Prisen på bilen er den samme. Du får blot gratis Supercharging oveni." },
+    { "q": "Gælder linket for Model S, Model X eller brugte biler?", "a": "Nej. Fordelen gælder i dag kun for nye Model 3 og Model Y bestilt hos Tesla." },
+    { "q": "Er dette en officiel Tesla-side?", "a": "Nej, dette er en privat side lavet af en Tesla-ejer. Selve linket går til Teslas officielle henvisningsprogram på tesla.com, og Teslas vilkår gælder. Tesla kan ændre fordelene når som helst." }
+  ],
+
+  "footerDisclaimer": "Privat side, ikke tilknyttet Tesla, Inc.",
+  "languageLabel": "Sprog",
+  "bannerText": "Denne side findes også på dansk.",
+  "bannerCta": "Vis på dansk",
+  "bannerClose": "Luk"
+}

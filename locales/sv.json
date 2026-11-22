@@ -1,0 +1,46 @@
+{
+  "lang": "sv",
+  "hreflang": "sv",
+  "name": "Svenska",
+  "path": "/sv/",
+  "ogLocale": "sv_SE",
+  "teslaLocale": "sv_se",
+  "browserLangs": ["sv"],
+
+  "title": "Tesla rabattkod och referral-länk: 1 000 km gratis Supercharging",
+  "description": "Beställ Tesla Model 3 eller Model Y med den här rekommendationslänken och få 1 000 km gratis Supercharging. Så använder du länken, och svar på vanliga frågor.",
+  "ogTitle": "1 000 km gratis Supercharging på din nya Tesla",
+  "ogDescription": "Beställ Model 3 eller Model Y med rekommendationslänken och få 1 000 km gratis laddning.",
+
+  "eyebrow": "Tesla rekommendationslänk · Model 3 och Model Y",
+  "h1": "1 000 km<br/>gratis Supercharging",
+  "lead": "Beställ din nya Tesla Model 3 eller Model Y med min rekommendationslänk så får du <strong>1 000 km gratis laddning</strong>. Samma pris på bilen, ingen extra kostnad.",
+  "cta": "Beställ med länken",
+  "copy": "Kopiera länk",
+  "copied": "Kopierad!",
+  "fineprint": "Länken måste användas när du beställer. Den kan inte läggas till i efterhand.",
+
+  "stepsHeading": "Så gör du",
+  "steps": [
+    { "title": "Öppna rekommendationslänken", "text": "Tryck på knappen ovan. Du kommer direkt till Teslas officiella sida på tesla.com." },
+    { "title": "Välj Model 3 eller Model Y", "text": "Konfigurera bilen som vanligt och slutför beställningen i samma session." },
+    { "title": "Få 1 000 km gratis laddning", "text": "Kilometrarna läggs automatiskt till på ditt Tesla-konto efter leverans." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Vanliga frågor",
+  "faq": [
+    { "q": "Vad får jag genom att använda rekommendationslänken?", "a": "När du beställer en ny Tesla Model 3 eller Model Y via rekommendationslänken får du 1 000 km gratis Supercharging. Kilometrarna läggs automatiskt till på ditt Tesla-konto efter leverans." },
+    { "q": "Kan jag lägga till länken efter att jag har beställt?", "a": "Nej. Beställningen måste göras via rekommendationslänken. Öppna länken först och slutför beställningen i samma session." },
+    { "q": "Kostar det något extra att använda länken?", "a": "Nej. Priset på bilen är detsamma. Du får bara gratis Supercharging utöver det." },
+    { "q": "Gäller länken för Model S, Model X eller begagnade bilar?", "a": "Nej. Förmånen gäller i dag endast nya Model 3 och Model Y som beställs från Tesla." },
+    { "q": "Är detta en officiell Tesla-sida?", "a": "Nej, det här är en privat sida skapad av en Tesla-ägare. Själva länken går till Teslas officiella rekommendationsprogram på tesla.com, och Teslas villkor gäller. Tesla kan ändra förmånerna när som helst." }
+  ],
+
+  "footerDisclaimer": "Privat sida, inte ansluten till Tesla, Inc.",
+  "languageLabel": "Språk",
+  "bannerText": "Den här sidan finns även på svenska.",
+  "bannerCta": "Visa på svenska",
+  "bannerClose": "Stäng"
+}

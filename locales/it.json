@@ -1,0 +1,46 @@
+{
+  "lang": "it",
+  "hreflang": "it",
+  "name": "Italiano",
+  "path": "/it/",
+  "ogLocale": "it_IT",
+  "teslaLocale": "it_it",
+  "browserLangs": ["it"],
+
+  "title": "Codice referral Tesla: 1.000 km di Supercharging gratis | Model 3 e Model Y",
+  "description": "Ordina una Tesla Model 3 o Model Y con questo link referral e ricevi 1.000 km di Supercharging gratuiti. Come usarlo e risposte alle domande frequenti.",
+  "ogTitle": "1.000 km di Supercharging gratis sulla tua nuova Tesla",
+  "ogDescription": "Ordina una Model 3 o Model Y con il link referral e ricevi 1.000 km di ricarica gratuita.",
+
+  "eyebrow": "Link referral Tesla · Model 3 e Model Y",
+  "h1": "1.000 km<br/>di Supercharging gratis",
+  "lead": "Ordina la tua nuova Tesla Model 3 o Model Y con il mio link referral e ricevi <strong>1.000 km di ricarica gratuita</strong>. Stesso prezzo per l'auto, nessun costo aggiuntivo.",
+  "cta": "Ordina con il referral",
+  "copy": "Copia link",
+  "copied": "Copiato!",
+  "fineprint": "Il link va usato al momento dell'ordine. Non può essere aggiunto in seguito.",
+
+  "stepsHeading": "Come funziona",
+  "steps": [
+    { "title": "Apri il link referral", "text": "Tocca il pulsante qui sopra. Arrivi direttamente alla pagina ufficiale di Tesla su tesla.com." },
+    { "title": "Scegli Model 3 o Model Y", "text": "Configura l'auto come al solito e completa l'ordine nella stessa sessione." },
+    { "title": "Ricevi 1.000 km di ricarica gratis", "text": "I chilometri vengono aggiunti automaticamente al tuo account Tesla dopo la consegna." }
+  ],
+
+  "about": null,
+
+  "faqHeading": "Domande frequenti",
+  "faq": [
+    { "q": "Cosa ottengo usando il link referral?", "a": "Ordinando una nuova Tesla Model 3 o Model Y tramite il link referral, ricevi 1.000 km di Supercharging gratuiti. I chilometri vengono aggiunti automaticamente al tuo account Tesla dopo la consegna." },
+    { "q": "Posso aggiungere il link dopo aver ordinato?", "a": "No. L'ordine deve essere effettuato tramite il link referral. Apri prima il link e completa l'ordine nella stessa sessione." },
+    { "q": "Usare il link costa qualcosa in più?", "a": "No. Il prezzo dell'auto resta lo stesso. Ricevi semplicemente Supercharging gratuito in aggiunta." },
+    { "q": "Il link vale per Model S, Model X o auto usate?", "a": "No. Il vantaggio si applica attualmente solo a Model 3 e Model Y nuove ordinate da Tesla." },
+    { "q": "È un sito ufficiale di Tesla?", "a": "No, è un sito privato creato da un proprietario di Tesla. Il link porta al programma referral ufficiale su tesla.com e si applicano le condizioni di Tesla. Tesla può modificare i vantaggi in qualsiasi momento." }
+  ],
+
+  "footerDisclaimer": "Sito privato, non affiliato a Tesla, Inc.",
+  "languageLabel": "Lingua",
+  "bannerText": "Questa pagina è disponibile anche in italiano.",
+  "bannerCta": "Vedi in italiano",
+  "bannerClose": "Chiudi"
+}
